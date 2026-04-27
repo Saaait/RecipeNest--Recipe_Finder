@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #fff5e6;
+  /* Warm beige */
+  --primary-color: #ff7043;
+  /* Food-friendly orange */
+  --text-color: #1a3b5d;
+  /* Navy blue */
+}
+
+body {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  /* Prevent content from being hidden behind fixed navbar */
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
